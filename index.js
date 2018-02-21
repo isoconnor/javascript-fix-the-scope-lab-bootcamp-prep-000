@@ -12,7 +12,11 @@ function yourAnimal() {
   return animal
 }
 
+<<<<<<< HEAD
 function add2() {
+=======
+function add2(n) {
+>>>>>>> 51d398088fe8201d48eb494dcb4b5f4664d52c81
   const two = 2
   return n + two
 
@@ -28,4 +32,8 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
+<<<<<<< HEAD
 var theFunk = funkyFunction()()
+=======
+var theFunk = funkyFunction(function())
+>>>>>>> 51d398088fe8201d48eb494dcb4b5f4664d52c81
